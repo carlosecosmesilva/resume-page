@@ -1,297 +1,303 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--========== DEV ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="./assets/css/style.css">
+    <!--========== DEV ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
-        <title>Responsive resume cv</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav_logo">Carlos</a>
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list">
-                        <li class="nav_item">
-                            <a href="#home" class="nav_link active-link">
-                                <i class='bx bxs-home nav_icon' ></i>Home
-                            </a>
-                        </li>
+    <title>Responsive resume cv</title>
+</head>
 
-                        <li class="nav_item">
-                            <a href="#profile" class="nav_link">
-                                <i class='bx bxs-user nav_icon' ></i>Perfil
-                            </a>
-                        </li>
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Carlos</a>
 
-                        <li class="nav_item">
-                            <a href="#education" class="nav_link">
-                                <i class='bx bxs-book nav_icon' ></i>Escolaridade
-                            </a>
-                        </li>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bxs-home nav_icon'></i>Home
+                        </a>
+                    </li>
 
-                        <li class="nav_item">
-                            <a href="#skills" class="nav_link">
-                                <i class='bx bxs-receipt nav_icon' ></i>Skills
-                            </a>
-                        </li>
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bxs-user nav_icon'></i>Perfil
+                        </a>
+                    </li>
 
-                        <li class="nav_item">
-                            <a href="#experience" class="nav_link">
-                                <i class='bx bxs-briefcase-alt-2 nav_icon' ></i>Experiência
-                            </a>
-                        </li>
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class='bx bxs-book nav_icon'></i>Escolaridade
+                        </a>
+                    </li>
 
-                        <li class="nav_item">
-                            <a href="#learning" class="nav_link">
-                                <i class='bx bx-book-reader nav_icon' ></i>Estudando
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bxs-receipt nav_icon'></i>Skills
+                        </a>
+                    </li>
 
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class='bx bxs-grid-alt nav_icon' ></i>
-                </div>
-            </nav>
-        </header>
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bxs-briefcase-alt-2 nav_icon'></i>Experiência
+                        </a>
+                    </li>
 
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume_left">
-                    <!--========== HOME ==========-->
-                    <section class="home" id="home">
-                        <div class="home_container section bd-grid">
-                            <div class="home_data bd-grid">
-                                <img src="./assets/img/perfil.jfif" alt="" class="home_img">
-                            
-                                <h1 class="home_title">Carlos <b>Eduardo</b></h1>
-                                <h3 class="home_profession">Desenvolvedor</h3>
-                                
-                                <!-- Button to generate and download the pdf. Available for desktop. -->
-                                <div>
-                                    <a download="" href="assets/pdf/ResumeCV.pdf" class="home_button-movil">
+                    <li class="nav_item">
+                        <a href="#learning" class="nav_link">
+                            <i class='bx bx-book-reader nav_icon'></i>Estudando
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bxs-grid-alt nav_icon'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume_left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="./assets/img/perfil.jfif" alt="" class="home_img">
+
+                            <h1 class="home_title">Carlos <b>Eduardo</b></h1>
+                            <h3 class="home_profession">Desenvolvedor Frontend</h3>
+
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCV.pdf" class="home_button-movil">
                                         Download
                                     </a>
-                                </div>
                             </div>
-                            <div class="home_address bd-grid">
-                                <span class="home_information">
+                        </div>
+                        <div class="home_address bd-grid">
+                            <span class="home_information">
                                     <i class='bx bxs-map home_icon' ></i> Jardim Catarina, São Gonçalo - Rio de Janeiro
                                 </span>
 
-                                <span class="home_information">
+                            <span class="home_information">
                                     <i class='bx bxs-envelope home_icon' ></i> carlos.eduardo.cs@outlook.com
                                 </span>
 
-                                <span class="home_information">
+                            <span class="home_information">
                                     <i class='bx bxs-phone home_icon' ></i> (21) 96493-5650
                                 </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bxs-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Theme change button -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">Redes Sociais</h2>
+
+                    <div class="social_container bd-grid">
+                        <a href="https://www.linkedin.com/in/carlosecdasilva/" target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin social_icon'></i>@carloseduardo
+                        </a>
+                        <a href="https://www.facebook.com/carlosecosmedasilva/" target="_blank" class="social_link">
+                            <i class='bx bxl-facebook social_icon'></i>@carloseduardo
+                        </a>
+                        <a href="https://www.instagram.com/caduusilva/" target="_blank" class="social_link">
+                            <i class='bx bxl-instagram social_icon'></i>@caduusilva
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+
+                    <p class="profile_description">Oi, me chamo Carlos Eduardo e sou um profissional em transição de carreira para me tornar um ótimo Desenvolvedor Frontend</p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Escolaridade</h2>
+
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Sistemas de Informação</h3>
+                                <span class="education_studies">UFF - Universidade Federal Fluminense em Niterói</span>
+                                <span class="education_year">2021 - 2023</span>
                             </div>
                         </div>
-                        <!-- Theme change button -->
-                        <i class='bx bxs-moon change-theme' title="Theme" id="theme-button"></i>
-                        
-                        <!-- Theme change button -->
-                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
-                    </section>          
-                    
-                    <!--========== SOCIAL ==========-->
-                    <section class="social section">
-                        <h2 class="section-title">Redes Sociais</h2>
-
-                        <div class="social_container bd-grid">
-                            <a href="https://www.linkedin.com/in/carlosecdasilva/" target="_blank" class="social_link">
-                                <i class='bx bxl-linkedin social_icon'></i>@carloseduardo
-                            </a>
-                            <a href="https://www.facebook.com/carlosecosmedasilva/" target="_blank" class="social_link">
-                                <i class='bx bxl-facebook social_icon' ></i>@carloseduardo
-                            </a>
-                            <a href="https://www.instagram.com/caduusilva/" target="_blank" class="social_link">
-                                <i class='bx bxl-instagram social_icon' ></i>@caduusilva
-                            </a>
-                        </div>
-                    </section>
-
-                    <!--========== PROFILE ==========-->
-                    <section class="profile section" id="profile">
-                        <h2 class="section-title">Perfil</h2>
-
-                        <p class="profile_description">Oi, me chamo Carlos Eduardo e sou um profissional em transição de carreira para me tornar um ótimo desenvolvedor.</p>
-                    </section>
-                    
-                    <!--========== EDUCATION ==========-->
-                    <section class="education section" id="education">
-                        <h2 class="section-title">Escolaridade</h2>
-
-                        <div class="education_container bd-grid">
-                            <div class="education_content">
-                                <div class="education_time">
-                                    <span class="education_rounder"></span>
-                                    <span class="education_line"></span>
-                                </div>
-                                <div class="education_data bd-grid">
-                                    <h3 class="education_title">Sistemas de Informação</h3>
-                                    <span class="education_studies">UFF - Universidade Federal Fluminense em Niterói</span>
-                                    <span class="education_year">2021 - 2023</span>
-                                </div>
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!-- <span class="education_line"></span> -->
                             </div>
-                            <div class="education_content">
-                                <div class="education_time">
-                                    <span class="education_rounder"></span>
-                                    <!-- <span class="education_line"></span> -->
-                                </div>
-                                <div class="education_data bd-grid">
-                                    <h3 class="education_title">Técnico de Informática</h3>
-                                    <span class="education_studies">SENAI</span>
-                                    <span class="education_year">2012 - 2014</span>
-                                </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Técnico de Informática</h3>
+                                <span class="education_studies">SENAI</span>
+                                <span class="education_year">2012 - 2014</span>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
 
 
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
 
-                        <div class="skills_content bd-grid">
-                            <ul class="skills_data">
-                                <li class="skills_name">
-                                    <span class="skills_circle"></span>Html
-                                </li>
-                                <li class="skills_name">
-                                    <span class="skills_circle"></span>Css
-                                </li>
-                                <li class="skills_name">
-                                    <span class="skills_circle"></span>JavaScript
-                                </li>
-                            </ul>
+                    <div class="skills_content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Html
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Css
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>JavaScript
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>React
+                            </li>
+                        </ul>
 
-                            <ul class="skills_data">
-                                <li class="skills_name">
-                                    <span class="skills_circle"></span>C#
-                                </li>
-                                <li class="skills_name">
-                                    <span class="skills_circle"></span>SQLServer
-                                </li>
-                                <li class="skills_name">
-                                    <span class="skills_circle"></span>MongoDB
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>C#
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>SQLServer
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>MongoDB
+                            </li>
+                        </ul>
+                    </div>
+                </section>
 
-                </div>
+            </div>
 
-                <div class="resume_right">
-                    <!--========== EXPERIENCE ==========-->
-                    <section class="experience section" id="experience">
-                        <h2 class="section-title">Experiência</h2>
+            <div class="resume_right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiência</h2>
 
-                        <div class="experience_container bd-grid">
-                            <div class="experience_content">
-                                <div class="experience_time">
-                                    <span class="experience_rounder"></span>
-                                    <span class="experience_line"></span>
-                                </div>
-
-                                <div class="experience_data bd-grid">
-                                    <h3 class="experience_title">Analista de Suporte</h3>
-                                    <span class="experience_company">2019 - atual | PDVNet Inteligência em Sistemas</span>
-                                    <p class="experience_description">Atuação com atendimento ao cliente, em alguns deles efetuando alterações e pequenos ajustes em bancos de dados, análise de auditorias, hoje atuo como auxiliador dos novos integrantes do setor.</p>
-                                </div>
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
                             </div>
-                            <div class="experience_content">
-                                <div class="experience_time">
-                                    <span class="experience_rounder"></span>
-                                </div>
 
-                                <div class="experience_data bd-grid">
-                                    <h3 class="experience_title">Suporte HelpDesk</h3>
-                                    <span class="experience_company">2017 - 2019 | Raquel Calçados</span>
-                                    <p class="experience_description">Atuação direta com infraestrutura, sendo executado, projetos de estruturação de rede e máquinas, desde a elaboração, planejamento e execução.</p>
-                                </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Analista de Suporte</h3>
+                                <span class="experience_company">2019 - atual | PDVNet Inteligência em Sistemas</span>
+                                <p class="experience_description">Atuação com atendimento ao cliente, em alguns deles efetuando alterações e pequenos ajustes em bancos de dados, análise de auditorias, hoje atuo como auxiliador dos novos integrantes do setor.</p>
                             </div>
                         </div>
-                    </section>
-                    <!--========== COURSES ==========-->
-                    <section class="courses section">
-                        <h2 class="section-title">Cursos Extras</h2>
-                        
-                        <div class="courses_container bd-grid">
-                            <div class="course_content">
-                                <h3 class="course_title">Bootcamp TakeBlip Fullstack Developer (2021)</h3>
-                                <p class="course_description">Curso voltado para o .NET focado em aprender um pouco mais sobre aplicações com C#, e também aplicações API Rest.</p>
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
                             </div>
-                            <div class="course_content">
-                                <h3 class="course_title">Formação C# - Trabalhando com Windows Forms(2021)</h3>
-                                <p class="course_description">Curso voltado para aprender mais sobre criação de formulários utilizando C#, contruindo uma base necessária para utilização dos mesmos na criação softwares para computadores.</p>
-                            </div>
-                            <div class="course_content">
-                                <h3 class="course_title">Formação Frontend (2021)</h3>
-                                <p class="course_description">Curso voltado para aprender mais sobre criação de páginas web, contruindo uma base necessária para utilização dos frameworks.</p>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Suporte HelpDesk</h3>
+                                <span class="experience_company">2017 - 2019 | Raquel Calçados</span>
+                                <p class="experience_description">Atuação direta com infraestrutura, sendo executado, projetos de estruturação de rede e máquinas, desde a elaboração, planejamento e execução.</p>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
+                <!--========== COURSES ==========-->
+                <section class="courses section">
+                    <h2 class="section-title">Cursos Extras</h2>
 
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        <h2 class="section-title">Idiomas</h2>
-
-                        <div class="languages_container">
-                            <ul class="languages_content bd-grid">
-                                <li class="languages_name">
-                                    <span class="languages_circle"></span> Inglês
-                                </li>
-                            </ul>
+                    <div class="courses_container bd-grid">
+                        <div class="course_content">
+                            <h3 class="course_title">Bootcamp TakeBlip Fullstack Developer (2021)</h3>
+                            <p class="course_description">Bootcamp voltado para React e .NET focado em aprender um pouco mais sobre aplicações web com MVC, API Rest.</p>
                         </div>
-                    </section>
-
-                    <!--========== LEARNING ==========-->
-                    <section class="learning section" id="learning">
-                        <h2 class="section-title">Estudando</h2>
-
-                        <div class="learning_container bd-grid">
-                            <div class="learning_content">
-                                <i class="devicon-dot-net-plain dev-icons"></i>
-                                <span class="learning_name">.NET</span>
-                            </div>
-                            <div class="learning_content">
-                                <i class="devicon-csharp-plain-wordmark dev-icons"></i>
-                                <span class="learning_name">C#</span>
-                            </div>
-                            <div class="learning_content">
-                                <i class="devicon-microsoftsqlserver-plain-wordmark dev-icons"></i>
-                                <span class="learning_name">SQLServer</span>
-                            </div>
+                        <div class="course_content">
+                            <h3 class="course_title">Formação C# - Trabalhando com Windows Forms(2021)</h3>
+                            <p class="course_description">Curso voltado para aprender mais sobre criação de formulários utilizando C#, contruindo uma base necessária para utilização dos mesmos na criação softwares para computadores.</p>
                         </div>
-                    </section>
-                </div>
-            </div>        
-        </main>
+                        <div class="course_content">
+                            <h3 class="course_title">Formação Frontend (2021)</h3>
+                            <p class="course_description">Curso voltado para aprender mais sobre criação de páginas web, contruindo uma base necessária para utilização dos frameworks.</p>
+                        </div>
+                    </div>
+                </section>
 
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-up-arrow-alt scrolltop_icon'></i>
-        </a>
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Idiomas</h2>
 
-        <!--========== HTML2PDF ==========-->
-        <script src="./assets/js/html2pdf.bundle.min.js"></script>
+                    <div class="languages_container">
+                        <ul class="languages_content bd-grid">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> Inglês
+                            </li>
+                        </ul>
+                    </div>
+                </section>
 
-        <!--========== MAIN JS ==========-->
-        <script src="./assets/js/main.js"></script>
-    </body>
+                <!--========== LEARNING ==========-->
+                <section class="learning section" id="learning">
+                    <h2 class="section-title">Estudando</h2>
+
+                    <div class="learning_container bd-grid">
+                        <div class="learning_content">
+                            <i class="devicon-react-original dev-icons"></i>
+                            <span class="learning_name">React</span>
+                        </div>
+                        <div class="learning_content">
+                            <i class="devicon-redux-original dev-icons"></i>
+                            <span class="learning_name">Redux</span>
+                        </div>
+                        <div class="learning_content">
+                            <i class="devicon-nodejs-plain dev-icons"></i>
+                            <span class="learning_name">NodeJS</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop_icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
